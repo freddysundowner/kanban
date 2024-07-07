@@ -1,0 +1,44 @@
+{
+  "name": "lowcoder-comp-kanban",
+  "version": "0.0.18",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@observablehq/runtime": "^5.9.8",
+    "@syncfusion/ej2-base": "^25.2.7",
+    "@syncfusion/ej2-material3-theme": "^26.1.35",
+    "@syncfusion/ej2-react-kanban": "^25.2.6",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "antd": "^5.19.0",
+    "bootstrap": "^5.3.3",
+    "lowcoder-cli": "^0.0.30",
+    "lowcoder-sdk": "^2.4.3",
+    "prop-types": "^15.8.1",
+    "react": "18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "18",
+    "react-resize-detector": "^10.0.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.13"
+  },
+  "lowcoder": {
+    "description": "Kanban Component Plugin",
+    "comps": {
+      "kanban": {
+        "name": "Kanban",
+        "icon": "./icons/hills.svg",
+        "description": "Kanban Component",
+        "layoutInfo": {
+          "w": 20,
+          "h": 40
+        }
+      }
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "lowcoder-cli build",
+    "build_publish": "lowcoder-cli build --publish"
+  }
+}
